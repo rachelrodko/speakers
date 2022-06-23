@@ -1,0 +1,162 @@
+body {
+    margin: 0 200px 0;
+    padding: 0;
+    background-color: rgb(199, 207, 212);
+}
+
+
+header{
+    background-color: rgb(49, 69, 94);
+    width:100%;
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.styles-conference-head{
+    font-size: 50px;
+    color:rgb(202, 206, 214);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    flex: 1;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+    
+.date {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    font-size: 22px;
+    color: rgb(134, 136, 141);
+    text-align: right;
+}
+
+
+.menu-head {
+    text-decoration: none;
+    color: rgb(239, 244, 255);
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+table {
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+td {
+    padding-right: 20px;
+
+}
+
+.title {
+    width: auto;
+    height: 250px;
+    text-align: center;
+    padding: 10 50 60 50;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to right, #ACE7CB 0%, #F1F2EF 90%);
+}
+
+.speakers {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #2b7552;
+}
+
+.blurb {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #5f5f5f;
+    margin: 10px;
+}
+
+.child-1 {
+    background: white; 
+    padding: 20px;
+    padding-left: 60px;
+    width: 60%
+}
+
+.child-2 {
+    background: white; 
+    width: 40%;
+}
+
+.container {
+    display: inline-flex;
+    width:100%;
+}
+
+.bio {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #5f5f5f;
+}
+
+.title-speakers {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #2b7552;
+}
+
+h3.bio {
+    font-size: 20px;
+    margin-top: -20px; 
+    margin-bottom: 40px;
+}
+
+.photo1 {
+    margin: 150px 130 0 130;
+    margin-left: 150px;
+    height: 250px;
+    width: 250px;
+}
+
+.photo2 {
+    margin: 30px 50 0 50;
+    margin-left: 150px;
+    height: 250px;
+    width: 250px;
+
+}
+
+.styles-conference-foot {
+    font-size: 22px;
+    color: rgb(134, 136, 141);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    flex: 1;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.menu-foot {
+    text-decoration: none;
+    color: rgb(239, 244, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(49, 69, 94);
+    width:100%;
+    display: flex;
+    height: 150px;
+    align-items: flex-end;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #4d4c4c;
+    width: 250px;
+    margin: 0 130 250 130;
+}
